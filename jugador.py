@@ -8,6 +8,4 @@ class Jugador:
         self.y = y
 
     def aparecer(self):
-        pygame.draw.rect(self.juego.pantalla,
-                         (210, 250,251),
-                         pygame.Rect(self.x, self.y, 10, 5))
+        pygame.draw.rect(self.juego.pantalla, (210, 250,251), pygame.Rect(self.x, self.y, 10, 5))
